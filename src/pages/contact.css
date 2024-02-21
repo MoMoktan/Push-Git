@@ -1,0 +1,32 @@
+
+.contact ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adjust the gap between icon and text */
+    color: #333; /* Set the color for the text */
+  }
+  
+  button:hover {
+    color: #007bff; /* Change text color on hover */
+  }
+  
